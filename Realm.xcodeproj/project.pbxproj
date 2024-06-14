@@ -157,6 +157,8 @@
 		29B7FDFB1C0DE8100023224E /* fileformat-pre-null.realm in Resources */ = {isa = PBXBuildFile; fileRef = 29B7FDF71C0DE76B0023224E /* fileformat-pre-null.realm */; };
 		29B7FDFC1C0DE8110023224E /* fileformat-pre-null.realm in Resources */ = {isa = PBXBuildFile; fileRef = 29B7FDF71C0DE76B0023224E /* fileformat-pre-null.realm */; };
 		29EDB8E41A7708E700458D80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8839B2D19E31FD90047B1A8 /* main.m */; };
+		2AFC3D012C1C43630041D28C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2AFC3D002C1C43630041D28C /* PrivacyInfo.xcprivacy */; };
+		2AFC3D032C1C44B40041D28C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2AFC3D022C1C44B40041D28C /* PrivacyInfo.xcprivacy */; };
 		3F0543EC1C56F71500AA5322 /* realm_coordinator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F0543EA1C56F71500AA5322 /* realm_coordinator.cpp */; };
 		3F0543ED1C56F71900AA5322 /* realm_coordinator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F0543EA1C56F71500AA5322 /* realm_coordinator.cpp */; };
 		3F0D87441E2EEC4C008C92AC /* RLMSyncPermissionOffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0D873E1E2EEC4C008C92AC /* RLMSyncPermissionOffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -714,6 +716,8 @@
 		29EDB8E01A77070200458D80 /* RLMRealm_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLMRealm_Private.h; sourceTree = "<group>"; };
 		29EDB8E51A7710B700458D80 /* RLMResults_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLMResults_Private.h; sourceTree = "<group>"; };
 		29EDB8E91A7712E500458D80 /* RLMObjectSchema_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLMObjectSchema_Private.h; sourceTree = "<group>"; };
+		2AFC3D002C1C43630041D28C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		2AFC3D022C1C44B40041D28C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3F0338491E6F466D00F9E288 /* RLMAccessor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RLMAccessor.hpp; sourceTree = "<group>"; };
 		3F04EA2D1992BEE400C2CE2E /* PerformanceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformanceTests.m; sourceTree = "<group>"; };
 		3F0543E91C56F71500AA5322 /* realm_coordinator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = realm_coordinator.hpp; sourceTree = "<group>"; };
@@ -1289,6 +1293,7 @@
 				1A7DE7021D38460B0029F0AE /* Sync.swift */,
 				3F222C4D1E26F51300CA0713 /* ThreadSafeReference.swift */,
 				5D660FF01BE98D670021E04F /* Util.swift */,
+				2AFC3D022C1C44B40041D28C /* PrivacyInfo.xcprivacy */,
 			);
 			path = RealmSwift;
 			sourceTree = "<group>";
@@ -1582,6 +1587,7 @@
 				E81A1F621955FC9300FDED82 /* Realm-Info.plist */,
 				02E334C21A5F3C45009F8810 /* Realm.modulemap */,
 				E81C393E1AE5CE6A00F03B56 /* strip-frameworks.sh */,
+				2AFC3D002C1C43630041D28C /* PrivacyInfo.xcprivacy */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1974,6 +1980,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -2032,6 +2039,7 @@
 			files = (
 				5D659ED21BE04556006515A0 /* CHANGELOG.md in Resources */,
 				5D659ED51BE04556006515A0 /* LICENSE in Resources */,
+				2AFC3D012C1C43630041D28C /* PrivacyInfo.xcprivacy in Resources */,
 				5D6157051BE13CBB00A4BD3F /* strip-frameworks.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2040,6 +2048,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AFC3D032C1C44B40041D28C /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

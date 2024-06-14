@@ -80,6 +80,7 @@ Pod::Spec.new do |s|
                                 'OTHER_CPLUSPLUSFLAGS' => '-isystem "${PODS_ROOT}/Realm/include/core"',
                                 'USER_HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/Realm/include" "${PODS_ROOT}/Realm/include/Realm"' }
   s.preserve_paths          = %w(build.sh include)
+  s.resource_bundles        = {'realm_objc_privacy' => ['Realm/PrivacyInfo.xcprivacy']}
 
   s.ios.deployment_target   = '7.0'
   s.ios.vendored_library    = 'core/librealmcore-ios.a'
